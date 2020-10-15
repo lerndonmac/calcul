@@ -10,5 +10,4 @@ public class Model {
             default -> throw new IllegalStateException("Unexpected value: " + operator);
         };
     }
-
 }

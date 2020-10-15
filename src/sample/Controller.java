@@ -17,7 +17,6 @@ public class Controller {
 
     @FXML
     private Text textWindow;
-
     @FXML
     public void pressNum(ActionEvent event){
         String value =((Button)event.getSource()).getText();
