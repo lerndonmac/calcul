@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadada" height="117.0" stroke="BLACK" strokeType="INSIDE" width="287.0" />
+             <Text fx:id="textWindow"><font><Font size="25" /> </font></Text>
+         </children>
+      </StackPane>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#pressCE" prefHeight="65.0" prefWidth="65.0" text="ce">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="65.0" prefWidth="65.0" text="/">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="65.0" prefWidth="65.0" text="*">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="65.0" prefWidth="65.0" text="-">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="7">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="8">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="9">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="65.0" prefWidth="65.0" text="+">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="4">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="5">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="6">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="65.0" prefWidth="65.0" text="=">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="1">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="2">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="3">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="65.0" prefWidth="65.0" text="0">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>
